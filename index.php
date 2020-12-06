@@ -55,7 +55,7 @@ if (!isset($_SESSION['userid'])) {
                 <div class="main">
                     <h1>Login</h1>
                     <div class="well">
-                        <form name="login" id="login" method="POST" action="<?php $_SERVER['PHP_SELF'] ?>">
+                        <form name="login" id="login" method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>">
                             <div class="form-group">
                                 <label for="userName">User Name</label>
                                 <input name="userName" type="text" class="form-control" id="userName" required="" maxlength="45">

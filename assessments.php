@@ -33,7 +33,7 @@ if (!isset($_SESSION['userid']) || ($_SESSION['userid'] == 0)) {
                 <div class="main">
                     <h1>Search Assessments</h1>
                     <div class="well">
-                        <form name="assessments" id="assessments" method="GET" action="<?php $_SERVER['PHP_SELF'] ?>">
+                        <form name="assessments" id="assessments" method="GET" action="<?php echo $_SERVER['PHP_SELF'] ?>">
                             <div class="form-group">
                                 <label for="assessmentName">Assessment Name</label>
                                 <input name="assessmentName" type="text" class="form-control" id="assessmentName" maxlength="45">
