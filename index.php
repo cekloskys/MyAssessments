@@ -27,7 +27,7 @@ if (!isset($_SESSION['userid'])) {
                     //check to see if the submit button was pushed
                     if ((isset($_POST['submit']))) {
                         echo "Test 2";
-                        require_once '.\controller\instructor.php';
+                        require_once './controller/instructor.php';
                         echo "Test 3";
                         //getting data input into the form and assigning
                         //it to variables

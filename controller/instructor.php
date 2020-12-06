@@ -1,7 +1,7 @@
 <?php
 
 // include class.actor.php model file
-require_once __DIR__ . '\..\model\class.instructor.php';
+require_once __DIR__ . '/../model/class.instructor.php';
 
 // specify content type of data that will be
 // sent to the actor Javascript file
