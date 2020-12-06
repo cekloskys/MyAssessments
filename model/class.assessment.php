@@ -7,7 +7,7 @@ class Assessment {
     function __construct() {
         // connect to filmcollector MySQL database
         // assign connection to field
-        $this->mysqli = new mysqli('localhost:3306', 'root', '', 'assessments');
+        $this->mysqli = new mysqli('us-cdbr-east-02.cleardb.com', 'b273373373b0c2', 'c1e73f3b', 'heroku_a57cc558b2df208');
     }
     
     // declare destructor
