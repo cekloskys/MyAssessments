@@ -23,16 +23,17 @@ if (!isset($_SESSION['userid'])) {
             <div class="container">
                 <ul class="nav">
                     <?php        
-                    echo "Test";
+                    echo "Test 1";
                     //check to see if the submit button was pushed
                     if ((isset($_POST['submit']))) {
-
+                        echo "Test 2";
                         require_once '.\controller\instructor.php';
-
+                        echo "Test 3";
                         //getting data input into the form and assigning
                         //it to variables
                         $userName = $_POST['userName'];
                         $password = $_POST['password'];
+                        echo "Test 4";
 
                         $status = select_user($userName, $password);
 
