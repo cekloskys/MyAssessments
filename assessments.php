@@ -55,7 +55,7 @@ if (!isset($_SESSION['userid']) || ($_SESSION['userid'] == 0)) {
                                 //check to see if the submit button was pushed
                                 if ((isset($_GET['assessmentName']))) {
                                     // include movie controller file
-                                    require_once '.\controller\assessment.php';
+                                    require_once './controller/assessment.php';
 
                                     // get data input into form 
                                     // and store it in variables

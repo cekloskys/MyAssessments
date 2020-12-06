@@ -1,7 +1,7 @@
 <?php
 
 // include class.rating model file
-require_once __DIR__ . '\..\model\class.assessment.php';
+require_once __DIR__ . '/../model/class.assessment.php';
 
 // specify the content type of the data that will be
 // transmitted back and forth between this file,
