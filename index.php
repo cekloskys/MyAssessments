@@ -22,7 +22,8 @@ if (!isset($_SESSION['userid'])) {
         <div class="nav-bar">
             <div class="container">
                 <ul class="nav">
-                    <?php                   
+                    <?php        
+                    echo "Test";
                     //check to see if the submit button was pushed
                     if ((isset($_POST['submit']))) {
 
